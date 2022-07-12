@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 body{
-	background-image: linear-gradient(to left,  #323232 , #21201f );
+	background-color:  #f8f6f5 ;
+}
+
+#containerTitulo{
+	margin-top: 60px;
+}
+
+#tituloBargo{
+	font-family: 'Lobster', cursive;
+	color:  #fc7d28;
+	font-size: 45px;
+}
+
+#tituloOpcionesPrincipales{
+	text-decoration: none;
+	font-size: 20px;
+	color:  #b2babb;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+#panelOpcionesPrincipales{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#panelLogin{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color:  #e0e3e4 ;
+	border-radius: 100px;
+}
+
+#botonIniciarSesion{
+	border-radius: 100px 0px 0px 100px;
+	border-width: 0px;
+	font-size: 18px;
+	text-align: center;
+	background-color: transparent;
+	padding-right: 30px;
+}
+
+#botonCrearCuenta{
+	border-radius: 100px 100px 100px 100px;
+	background-color:  #f3b550 ;
+	border-width: 0px;
+	font-size: 18px;
+	padding: 15px;
+	color: white;
+}
+#botonCrearCuenta:hover{
+	box-shadow: 0px 0px 10px black;
 }
