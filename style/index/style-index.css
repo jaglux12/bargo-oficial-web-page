@@ -58,14 +58,9 @@ body{
 }
 
 #btnMasOpciones{
-		font-size: 100px;
-		display: flex;
-		text-align: right;
-		align-items: center;
-		justify-content: center;
-		width: 50%;
-		text-decoration: none;
-		background-color: red;
+	border-radius: 100px 100px 100px 100px;
+	border-width: 0px;
+	background-color: transparent;
 }
 
 #panelMasOpciones{
