@@ -56,3 +56,20 @@ body{
 #botonCrearCuenta:hover{
 	box-shadow: 0px 0px 10px black;
 }
+
+#btnMasOpciones{
+		font-size: 100px;
+		display: flex;
+		text-align: right;
+		align-items: center;
+		justify-content: center;
+		width: 50%;
+		text-decoration: none;
+		background-color: red;
+}
+
+#panelMasOpciones{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
