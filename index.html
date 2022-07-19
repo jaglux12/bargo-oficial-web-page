@@ -29,12 +29,23 @@
 					<a href="#" class="navbar-brand ps-3" id="tituloBargo">Bargo</a>
 
 					<!-- Botón que se muestra cuando la barra de navegación de colapsa -->
-					<button type="button" class="navbar-toggler rounded-pill border-transparent" data-toggle="collapse"
-						data-target="#navbarContenido" aria-controls="navbarContenido"
-
-						aria-extended="false" aria-label="Toggle navigation">
+					<button type="button" class="navbar-toggler rounded-pill border-transparent" data-bs-toggle="offcanvas"
+						href="#panelDesplegable">
 						<img src="imgs/bootstrap-icons-1.9.1/three-dots.svg" alt="Bootstrap" width="50" height="50">
 					</button>
+
+					<div class="offcanvas offcanvas-top" tabindex="-1" id="panelDesplegable">
+
+      			<div class="offcanvas-header">
+        			<h5 class="offcanvas-title ps-3"id="tituloBargo">Bargo</h5>
+        			<button type="button" class="btn-close pe-3" data-bs-dismiss="offcanvas"></button>
+      			</div>
+
+      			<div class="offcanvas-body ps-3">
+								
+      			</div>
+
+    			</div>
 
 					<div class="collapse navbar-collapse justify-content-end" id="navbarContenido">
 						<a href="#" id="tituloOpcionesPrincipales" class="mx-3">Inicio</a>
@@ -53,7 +64,7 @@
 
 					<div class="container-fluid px-3">
 
-						<div id="carouselExampleSlidesOnly" class="carousel slide d-sm-block d-md-none" data-bs-ride="carousel">
+						<div id="carouselExampleSlidesOnly" class="carousel slide d-xs-block d-sm-none" data-bs-ride="carousel">
 
 							<div class="carousel-inner">
 
@@ -117,12 +128,22 @@
 
 				</article>
 
+				<article class="container-fluid px-3 py-5  mt-4 d-flex flex-column justify-content-center align-items-center d-xs-block d-sm-none ">
+
+					<h1 class="fs-1 mt-5" id="tituloPaneles" style="color: #ff8200;">Sobre</h1>
+					<label class="fs-4 text-center px-3" id="tituloPaneles">Lleva tus lecturas a cualquier lugar, </label>
+					<label class="fs-4 text-center px-3" id="tituloPaneles">comparte, escribe reseñas y califica.</label>
+					<label class="fs-4 mb-5" id="tituloPaneles" style="color:#ff8200;">Sé tu escritor favorito.</label>
+
+				</article>
+
 			</section>
 
 			<footer>
 
 
-						
+
+
 
 
 			</footer>
