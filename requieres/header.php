@@ -1,7 +1,7 @@
 <header>
 
   <nav class="navbar navbar-expand-sm navbar-light m-3 justify-content-between">
-    <a href="#" class="navbar-brand ps-3" id="tituloBargo">Bargo</a>
+    <a href="index.php" class="navbar-brand ps-3" id="tituloBargo">Bargo</a>
 
     <!-- Botón que se muestra cuando la barra de navegación de colapsa -->
     <button type="button" class="navbar-toggler rounded-pill border-transparent" data-bs-toggle="offcanvas"
@@ -17,8 +17,8 @@
       </div>
 
       <div class="offcanvas-body ps-3 d-flex justify-content-center align-items-center flex-column">
-        <a href="#" id="tituloOpcionesPrincipales" class="my-1">Inicio</a>
-        <a href="#" id="tituloOpcionesPrincipales" class="my-1">Ayuda</a>
+        <a href="index.php" id="tituloOpcionesPrincipales" class="my-1">Inicio</a>
+        <a href="#" id="tituloOpcionesPrincipales" class="my-1">Sobre</a>
         <button type="button" class="btn btn-outline-secondary my-2">Crear cuenta</button>
         <button type="button" class="btn btn-warning">Iniciar sesión</button>
       </div>
@@ -26,10 +26,10 @@
     </div>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarContenido">
-      <a href="#" id="tituloOpcionesPrincipales" class="mx-1">Inicio</a>
+      <a href="index.php" id="tituloOpcionesPrincipales" class="mx-1">Inicio</a>
       <a href="#" id="tituloOpcionesPrincipales" class="mx-1">Nosotros</a>
       <button type="button" class="btn btn-outline-secondary mx-1">Crear cuenta</button>
-      <button type="button" class="btn btn-warning">Iniciar sesión</button>
+      <button type="button" class="btn btn-warning text-white" style="background-color: #fc7d28;">Iniciar sesión</button>
     </div>
 
   </nav>

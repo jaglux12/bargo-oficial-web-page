@@ -1,5 +1,6 @@
 <section>
 
+  <!-- Se Muestra unicamente el carousel en disp. <576 -->
   <article>
 
     <div class="container-fluid px-3">
@@ -68,13 +69,51 @@
 
   </article>
 
-  <article class="container-fluid px-3 py-5  mt-4 d-flex flex-column justify-content-center align-items-center d-xs-block d-sm-none ">
+  <!-- Se muestra el panel sobre en disp. <576 -->
+  <article class="container-fluid h-100 mt-4  d-xs-block d-sm-none">
 
-    <h1 class="fs-1 mt-5" id="tituloPaneles" style="color: #ff8200;">Sobre</h1>
-    <label class="fs-4 text-center px-3" id="tituloPaneles">Lleva tus lecturas a cualquier lugar, </label>
-    <label class="fs-4 text-center px-3" id="tituloPaneles">comparte, escribe reseñas y califica.</label>
-    <label class="fs-4 mb-5" id="tituloPaneles" style="color:#ff8200;">Sé tu escritor favorito.</label>
+    <div class="container d-flex rounded-4 flex-column justify-content-center align-items-center" style="background-color:  #fedbc3  ;">
+      <h1 class="fs-1 mt-5" id="tituloPaneles" style="color: #ff8200;">Sobre</h1>
+      <label class="fs-4 text-center px-3" id="tituloPaneles">Lleva tus lecturas a cualquier lugar, </label>
+      <label class="fs-4 text-center px-3" id="tituloPaneles">comparte, escribe reseñas y califica.</label>
+      <label class="fs-4 mb-5" id="tituloPaneles" style="color:#ff8200;">Sé tu escritor favorito.</label>
+    </div>
 
   </article>
+
+  <!-- Se muestra el panel de desarrollo en disp. <576 -->
+  <article class="container-fluid mb-4 h-100 mt-4 d-xs-block d-sm-none" id="sobre">
+
+    <div class="cotainer d-flex rounded-4 flex-column justify-content-center align-items-center" style="background-color:   #ffcfae  ;">
+      <h1 class="fs-1 mt-5" id="tituloPaneles" style="color: white;">Desarrollo</h1>
+      <a class="fs-4 text-center px-3 text-dark mb-5" style="text-decoration: none;" id="tituloPaneles" href="https://www.github.com/jaglux12">Jaglux12</a>
+    </div>
+
+  </article>
+
+
+  <article class="container-fluid mt-3 px-4 d-none d-sm-block d-md-none">
+
+      <div class="container-fluid rounded-4" style="background-color:  #ffd0b0  ;">
+
+        <div class="row">
+
+          <div class="col-sm-6 d-flex flex-column justify-content-center align-items-center">
+            <h1 class="h1 fs-1 text-white" id="tituloBargo">Compartí tus libros</h1>
+            <h2 class="h2 fs-2 text-dark" id="tituloBargo">en cualquier lugar</h2>
+
+          </div>
+
+          <div class="col-sm-6 pt-5 d-flex justify-content-center align-items-center">
+            <img src="imgs/books/index/img-libros-tablet.png" class="w-75">
+          </div>
+
+        </div>
+
+      </div>
+
+  </article>
+
+
 
 </section>
