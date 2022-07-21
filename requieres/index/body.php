@@ -1,4 +1,3 @@
-<section>
 
   <!-- Se Muestra unicamente el carousel en disp. <576 -->
   <article>
@@ -67,6 +66,8 @@
 
     </div>
 
+
+
   </article>
 
   <!-- Se muestra el panel sobre en disp. <576 -->
@@ -86,21 +87,24 @@
 
     <div class="cotainer d-flex rounded-4 flex-column justify-content-center align-items-center" style="background-color:   #ffcfae  ;">
       <h1 class="fs-1 mt-5" id="tituloPaneles" style="color: white;">Desarrollo</h1>
-      <a class="fs-4 text-center px-3 text-dark mb-5" style="text-decoration: none;" id="tituloPaneles" href="https://www.github.com/jaglux12">Jaglux12</a>
+      <a class="fs-4 text-center px-3 text-dark mb-5"  id="tituloPaneles" href="https://www.github.com/jaglux12">Jaglux12</a>
     </div>
 
   </article>
 
-
-  <article class="container-fluid mt-3 px-4 d-none d-sm-block d-md-none">
+<!-- Este contenido se muestra en tablets -->
+<section class="container-fluid mb-4 px-4 d-none d-sm-block">
 
       <div class="container-fluid rounded-4" style="background-color:  #ffd0b0  ;">
 
         <div class="row">
 
           <div class="col-sm-6 d-flex flex-column justify-content-center align-items-center">
-            <h1 class="h1 fs-1 text-white" id="tituloBargo">Compartí tus libros</h1>
-            <h2 class="h2 fs-2 text-dark" id="tituloBargo">en cualquier lugar</h2>
+            <h1 class="h1 fs-1 text-white d-none d-sm-block d-md-none" id="tituloBargo">Compartí tus libros</h1>
+            <h1 class="h2 fs-2 text-dark d-none d-sm-block d-md-none" id="tituloBargo">en cualquier lugar</h1>
+
+            <h1 class="display-1 text-white d-none d-md-block" id="tituloBargo">Compartí tus libros</h1>
+            <h1 class="display-2 text-dark d-none d-md-block" id="tituloBargo">en cualquier lugar</h1>
 
           </div>
 
@@ -112,8 +116,24 @@
 
       </div>
 
-  </article>
+      <div class="container-fluid rounded-4 mt-4" style="background-color:#fce0cd ;">
 
+        <div class="row">
 
+          <div class="col-sm-6 d-flex flex-column justify-content-center align-items-center flex-column p-4">
+            <h1 class="fs-1 mt-5" id="tituloPaneles" style="color: #ff8200;">Sobre</h1>
+            <label class="fs-4 text-center " id="tituloPaneles">Lleva tus lecturas a cualquier lugar, </label>
+            <label class="fs-4 text-center" id="tituloPaneles">comparte, escribe reseñas y califica.</label>
+            <label class="fs-4 mb-5" id="tituloPaneles" style="color:#ff8200;">Sé tu escritor favorito.</label>
+          </div>
+
+          <div class="col-sm-6 d-flex justify-content-center align-items-center flex-column p-4">
+            <h1 class="fs-1" id="tituloPaneles" style="color: white;">Desarrollo</h1>
+            <a class="fs-4 text-dark" style="" id="tituloPaneles" href="https://www.github.com/jaglux12">Jaglux12</a>
+          </div>
+
+        </div>
+
+      </div>
 
 </section>
