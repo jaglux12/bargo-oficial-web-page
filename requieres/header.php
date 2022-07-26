@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarContenido">
       <a href="index.php" id="tituloOpcionesPrincipales" class="mx-1">Inicio</a>
       <a href="#" id="tituloOpcionesPrincipales" class="mx-1">Nosotros</a>
-      <button type="button" class="btn btn-outline-secondary mx-1">Crear cuenta</button>
+      <a href="requieres/cuentas/crear_cuenta.php"><button type="button" class="btn btn-outline-secondary">Crear cuenta</button></a>
       <button type="button" class="btn btn-warning text-white" style="background-color: #fc7d28;">Iniciar sesión</button>
     </div>
 
