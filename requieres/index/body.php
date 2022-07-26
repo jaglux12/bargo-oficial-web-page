@@ -71,7 +71,7 @@
   </article>
 
   <!-- Se muestra el panel sobre en disp. <576 -->
-  <article class="container-fluid h-100 mt-4  d-xs-block d-sm-none">
+  <article class="container-fluid h-100 mt-4  d-xs-block d-sm-none" id="panelSobre">
 
     <div class="container d-flex rounded-4 flex-column justify-content-center align-items-center" style="background-color:  #fedbc3  ;">
       <h1 class="fs-1 mt-5" id="tituloPaneles" style="color: #ff8200;">Sobre</h1>

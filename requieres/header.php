@@ -18,9 +18,9 @@
 
       <div class="offcanvas-body ps-3 d-flex justify-content-center align-items-center flex-column">
         <a href="index.php" id="tituloOpcionesPrincipales" class="my-1">Inicio</a>
-        <a href="#" id="tituloOpcionesPrincipales" class="my-1">Sobre</a>
+        <a href="#panelSobre" id="tituloOpcionesPrincipales" class="my-1">Sobre</a>
         <a href="requieres/cuentas/crear_cuenta.php"><button type="button" class="btn btn-outline-secondary my-2">Crear cuenta</button></a>
-        <button type="button" class="btn btn-warning">Iniciar sesión</button>
+        <a href="requieres/cuentas/iniciar_sesion.php"><button type="button" class="btn btn-warning">Iniciar sesión</button></a>
       </div>
 
     </div>
