@@ -5,7 +5,7 @@
     <form class="px-2" action="index.html" method="post">
 
       <div class="d-flex justify-content-center">
-        <h2 id="tituloBargo" class="text-light fs-1">Crear cuenta</h2>
+        <h2 id="tituloBargo" class="text-light fs-1">Iniciar sesión</h2>
       </div>
 
       <div class="row mt-4 px-2">
@@ -14,10 +14,6 @@
 
       <div class="row mt-3 px-2">
           <input type="password" class="form-control bg-transparent border-light rounded-1" placeholder="contraseña">
-      </div>
-
-      <div class="mt-4 d-flex justify-content-center">
-          <a href="#" id="yatengounacuenta"> ¿Ya tienes una cuenta? </a>
       </div>
 
       <div class="mt-4 d-flex justify-content-center">

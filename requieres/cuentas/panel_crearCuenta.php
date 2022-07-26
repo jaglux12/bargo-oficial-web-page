@@ -22,7 +22,7 @@
 
       <div class="mt-4 d-flex justify-content-center">
           <a href="#">
-            <button type="button" name="button" class="btn btn-dark p-3 rounded-pill px-4">Iniciar sesión</button>
+            <button type="button" name="button" class="btn btn-dark p-3 rounded-pill px-4">Crear cuenta</button>
           </a>
       </div>
 

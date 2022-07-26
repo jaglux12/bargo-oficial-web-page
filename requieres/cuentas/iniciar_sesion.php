@@ -45,6 +45,8 @@
     crossorigin="anonymous">
     </script>
 
+    <script src="../../scripts/js/iniciar_sesion.js"> </script>
+
   </body>
 
 </html>
