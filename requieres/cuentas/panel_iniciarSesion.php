@@ -34,7 +34,7 @@
         <blockquote class="blockquote text-light">
           Siempre hay que tratar de ser el mejor, pero nunca creerse el mejor.
         </blockquote>
-        <figcaption class="blockquote-footer" name="nombre_prueba">
+        <figcaption class="blockquote-footer" id="nombre_prueba">
             Juan Manuel Fangio
         </figcaption>
       </figure>
@@ -42,6 +42,8 @@
       <div class="d-flex justify-content-center align-items-end mt-4">
         <h1 id="tituloBargo">Bargo</h1>
       </div>
+
+      <button type="button">Click alerta</button>
 
     </div>
 

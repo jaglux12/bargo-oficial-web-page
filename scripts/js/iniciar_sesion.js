@@ -1,7 +1,8 @@
-var parrafo = document.createElement("p");
+function saludo(){
+  alert("ijueputa");
+}
 
-var texto = document.createTextNode("Jose Julian");
-
-parrafo.appendChild(text);
-
-document.body.appendChild(parrafo);
+window.onload = function(){
+  var texto = document.getElementById("boton_saludo")
+  texto.addEventListener("click",saludo,false);
+}
