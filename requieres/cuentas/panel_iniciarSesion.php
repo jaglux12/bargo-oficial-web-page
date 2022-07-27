@@ -34,7 +34,7 @@
         <blockquote class="blockquote text-light">
           Siempre hay que tratar de ser el mejor, pero nunca creerse el mejor.
         </blockquote>
-        <figcaption class="blockquote-footer">
+        <figcaption class="blockquote-footer" name="nombre_prueba">
             Juan Manuel Fangio
         </figcaption>
       </figure>

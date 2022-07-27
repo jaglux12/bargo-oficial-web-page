@@ -1,9 +1,7 @@
-var numeros = [1,2,22,4,5];
+var parrafo = document.createElement("p");
 
-for(var i = 0 ; i < numeros.length ; i++){
-  alert(i + " = " + numeros[i]);
-}
+var texto = document.createTextNode("Jose Julian");
 
-for(i in numeros){
-  alert(i)
-}
+parrafo.appendChild(text);
+
+document.body.appendChild(parrafo);
