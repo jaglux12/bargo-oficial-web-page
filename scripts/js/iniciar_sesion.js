@@ -3,6 +3,6 @@ function saludo(){
 }
 
 window.onload = function(){
-  var texto = document.getElementById("boton_saludo")
+  var texto = document.getElementById("boton_saludooo")
   texto.addEventListener("click",saludo,false);
 }
