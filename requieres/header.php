@@ -1,12 +1,12 @@
 <header>
 
   <nav class="navbar navbar-expand-sm navbar-light m-3 justify-content-between">
-    <a href="index.php" class="navbar-brand ps-3" id="tituloBargo">Bargo</a>
+    <a href="index.php" class="navbar-brand ps-4" id="tituloBargo">Bargo</a>
 
     <!-- Botón que se muestra cuando la barra de navegación de colapsa -->
     <button type="button" class="navbar-toggler rounded-pill border-0 me-3" data-bs-toggle="offcanvas"
       href="#panelDesplegable">
-      <img src="imgs/bootstrap-icons-1.9.1/three-dots.svg" alt="Bootstrap" width="50" height="50">
+      <img src="imgs/iconos/menus/three-dots.svg" alt="Bootstrap" width="50" height="50">
     </button>
 
     <div class="offcanvas offcanvas-top d-xs-block d-sm-none h-50" tabindex="-1" id="panelDesplegable">

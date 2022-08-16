@@ -87,7 +87,7 @@
   <article class="container-fluid mb-2 h-100 mt-4 d-xs-block d-sm-none" id="sobre" >
 
     <div class="cotainer d-flex rounded-4 flex-column justify-content-center align-items-center" style="background-color:#fee3d9  ;">
-      <h1 class="fs-1 mt-5" id="tituloPaneles" style="color: black;">¿Alguna duda?</h1>
+      <h1 class="fs-2 mt-5" id="tituloPaneles" style="color: black;">Contáctenos</h1>
       <a class="fs-4 text-center px-3 mb-5"  id="tituloPaneles" href="https://www.github.com/jaglux12" style="color: #ff8200 ;">Jaglux12</a>
     </div>
 
