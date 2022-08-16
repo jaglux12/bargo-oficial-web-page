@@ -4,7 +4,7 @@
     <a href="index.php" class="navbar-brand ps-3" id="tituloBargo">Bargo</a>
 
     <!-- Botón que se muestra cuando la barra de navegación de colapsa -->
-    <button type="button" class="navbar-toggler rounded-pill border-transparent" data-bs-toggle="offcanvas"
+    <button type="button" class="navbar-toggler rounded-pill border-0 me-3" data-bs-toggle="offcanvas"
       href="#panelDesplegable">
       <img src="imgs/bootstrap-icons-1.9.1/three-dots.svg" alt="Bootstrap" width="50" height="50">
     </button>
