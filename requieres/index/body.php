@@ -42,7 +42,7 @@
                   <img src="imgs/books/index/carousel-img-3.png" class="d-block w-50">
               </div>
               <div class="row">
-                  <label class="h1 text-center text-muted display-4 ms-2" id="tituloPaneles">
+                  <label class="h1 text-center text-muted display-4 ms-2 pt-3" id="tituloPaneles">
                     Lleva tu libro<br/>
                     <label class="display-3 ms-2" id="subTituloPaneles"> <strong> hacia la cima </strong> </label>
                   </label>
@@ -71,7 +71,7 @@
   </article>
 
   <!-- Se muestra el panel sobre en disp. <576 -->
-  <article class="container-fluid h-100 mt-4  d-xs-block d-sm-none" id="panelSobre">
+  <article class="container-fluid h-100 mt-4  d-xs-block d-sm-none px-4" id="panelSobre">
 
     <div class="container d-flex rounded-4 flex-column justify-content-center align-items-center">
       <h1 class="fs-1 mt-5" id="tituloPaneles" style="color: #ff8200;">¿Qué es Bargo?</h1>
@@ -84,11 +84,26 @@
   </article>
 
   <!-- Se muestra el panel de desarrollo en disp. <576 -->
-  <article class="container-fluid mb-2 h-100 mt-4 d-xs-block d-sm-none" id="sobre" >
+  <article class="container-fluid mb-2 h-100 mt-4 d-xs-block d-sm-none px-4" id="sobre" >
 
-    <div class="cotainer d-flex rounded-4 flex-column justify-content-center align-items-center" style="background-color:#fee3d9  ;">
-      <h1 class="fs-2 mt-5" id="tituloPaneles" style="color: black;">Contáctenos</h1>
-      <a class="fs-4 text-center px-3 mb-5"  id="tituloPaneles" href="https://www.github.com/jaglux12" style="color: #ff8200 ;">Jaglux12</a>
+    <div class="cotainer d-flex rounded-4 flex-column justify-content-center align-items-center pb-5" style="background-color:#fee3d9  ;">
+      <h1 class="fs-2 mt-5" id="tituloPaneles" style="color: #ff8200 ;">Contáctenos</h1>
+      <div class="d-flex mt-3 w-50 align-items-center justify-content-between">
+
+        <a href="https://github.com/jaglux12">
+            <img src="imgs/iconos/menus/github.svg" alt="Bootstrap" width="35" height="35">
+        </a>
+
+        <a href="https://www.instagram.com/gonzalolopez3471/">
+            <img src="imgs/iconos/menus/instagram.svg" alt="Bootstrap" width="35" height="35">
+        </a>
+
+        <a href="https://mastodon.social/web/@bananapants87">
+            <img src="imgs/iconos/menus/mastodon.svg" alt="Bootstrap" width="35" height="35">
+        </a>
+
+
+      </div>
     </div>
 
   </article>

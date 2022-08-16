@@ -1,4 +1,4 @@
-<div class="row m-0 vh-100 px-5 justify-content-center align-items-center" id="panelPrincipal">
+<div class="row m-0 vh-100 px-5 justify-content-center align-items-center">
 
   <div class="col-12 col-xs-8 col-sm-8 col-md-6 col-lg-5 py-5 px-4 rounded-start" id="panelCrearCuenta">
 

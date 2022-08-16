@@ -13,7 +13,7 @@
 
       <div class="offcanvas-header">
         <h5 class="offcanvas-title ps-3"id="tituloBargo">Menu</h5>
-        <button type="button" class="btn-close pe-3" data-bs-dismiss="offcanvas"></button>
+        <button type="button" class="btn-close pe-5" data-bs-dismiss="offcanvas"></button>
       </div>
 
       <div class="offcanvas-body ps-3 d-flex justify-content-center align-items-center flex-column">
